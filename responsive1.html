@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Web Page!</title>
+		<style>
+			@media (min-width: 700px) {
+				h1::before {
+					content: "Welcome to my Web Page";
+				}
+			}
+
+			@media (max-width: 699px) {
+				h1::before {
+					content: "Welcome";
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1></h1>
+	</body>
+</html>
